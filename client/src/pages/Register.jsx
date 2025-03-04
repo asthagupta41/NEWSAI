@@ -8,7 +8,7 @@ import { Loader } from "@mantine/core";
 
 function Register() {
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const {loading} = useSelector((state) => state.auth);
   const { register, handleSubmit} = useForm();
   console.log(loading);
