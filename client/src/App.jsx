@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom';
-import Login from './pages/login';
-import Register from './pages/Register'
+import Login from './pages/Login';
+import Register from './pages/Register.jsx'
 
 
 const App = () => {
